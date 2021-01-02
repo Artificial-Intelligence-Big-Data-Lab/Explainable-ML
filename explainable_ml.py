@@ -840,7 +840,7 @@ def create_samples(industry, min_date, max_date, lexicons,
 
 
 industry='Industrials'
-collection = 'Industrials_news_2000-2019'
+collection = 'Industrials_news'
 type_of_lexicon = 'only_abs_delta'
 stemming=True
 remove_stopwords=True
