@@ -14,7 +14,7 @@ Here follows a short description of the content of the repository:
 - `explainable_ml.py`: main script, containing the backbone of the algorithm.
 - `utils.py`: other utility functions.
 
-Please note that the repository contains ready-to-use lexicons and samples, already available, to allow the user to run the algorithm without creating new lexicons nor new samples from the data. 
+Please note that, due to licensing constraints, we cannot publish any news document contained in the Dow Jones' Data, News and Analytics dataset, which was employed in the experimental framework of the paper. However, in order to allow the reproducibility of the experiments illustrated in the paper, we hereby make available a set of ready-to-use lexicons and feature vectors, based on the original data.
 
 ## 1. MongoDB configuration
 
@@ -49,4 +49,4 @@ You can simply run this command from shell:
 `Explainable-ML` > `python event_detector.py`
 
 
-Please note that this script is configured to run with feature vectors that were pre-computed on the whole portion of dataset analyzed in the paper. If you intend to run the algorithm on personalized lexicons with custom parameters, you will need to adapt the code accordingly. Also bear in mind that we hereby release only a small example portion of the DNA dataset, for confidentiality reasons.
+Please note that this script is configured to run with feature vectors that were pre-computed on the whole portion of dataset analyzed in the paper. If you intend to run the algorithm on personalized lexicons with custom parameters, you will need to use your own news dataset and adapt the code accordingly.
